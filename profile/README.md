@@ -13,7 +13,7 @@ Somos un equipo de ingeniería con sede en Madrid. Hacemos software, datos e int
 
 ## Qué hacemos
 
-| | |
+| Servicio | Qué incluye |
 |---|---|
 | **Software a medida** | Aplicaciones web y herramientas internas pensadas para tu negocio, no adaptadas a la fuerza desde una plantilla. |
 | **Inteligencia artificial** | Modelos de aprendizaje automático y procesamiento de lenguaje que convierten datos en bruto en decisiones útiles, como la detección de fraude. |
