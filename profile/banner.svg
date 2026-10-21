@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="t d">
+  <title id="t">Pickle Inc.</title>
+  <desc id="d">Software, datos e inteligencia artificial hechos para durar. Como el primer día.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00081C"/>
+      <stop offset="1" stop-color="#05193F"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8DC63F" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#8DC63F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brine" x1="0" y1="70" x2="0" y2="292" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8DC63F" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity="0.14"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8F5D0"/>
+    </linearGradient>
+    <clipPath id="inside"><rect x="34" y="70" width="172" height="222" rx="32"/></clipPath>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <circle cx="1010" cy="185" r="270" fill="url(#glow)"/>
+
+  <!-- Texto -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="84" y="178" font-size="92" font-weight="800" letter-spacing="-2" fill="url(#word)">Pickle Inc.</text>
+    <text x="88" y="232" font-size="32" font-weight="600" fill="#8DC63F">Como el primer día</text>
+    <text x="88" y="282" font-size="22" fill="#AAB4C8">Software, datos e inteligencia artificial hechos para durar.</text>
+  </g>
+
+  <!-- Bote -->
+  <g transform="translate(890 20)">
+    <g clip-path="url(#inside)">
+      <rect x="34" y="104" width="172" height="188" fill="url(#brine)"/>
+      <path d="M-20 104 Q10 96 40 104 T100 104 T160 104 T220 104 T280 104 V116 H-20 Z" fill="#8DC63F" fill-opacity="0.35"/>
+
+      <!-- Pepinillos -->
+      <g transform="rotate(-24 120 150)">
+        <rect x="64" y="128" width="112" height="46" rx="23" fill="#6FA32B"/>
+        <rect x="72" y="134" width="96" height="9" rx="4.5" fill="#9BD34F" fill-opacity="0.55"/>
+        <g fill="#4F7C1E"><circle cx="92" cy="156" r="2.6"/><circle cx="116" cy="162" r="2.6"/><circle cx="140" cy="155" r="2.6"/><circle cx="158" cy="162" r="2.6"/></g>
+      </g>
+      <g transform="rotate(16 120 230)">
+        <rect x="62" y="208" width="116" height="48" rx="24" fill="#8DC63F"/>
+        <rect x="70" y="214" width="100" height="9" rx="4.5" fill="#BEF264" fill-opacity="0.5"/>
+        <g fill="#5E8E27"><circle cx="90" cy="238" r="2.6"/><circle cx="114" cy="244" r="2.6"/><circle cx="138" cy="237" r="2.6"/><circle cx="160" cy="244" r="2.6"/></g>
+      </g>
+    </g>
+
+    <!-- Cristal -->
+    <rect x="30" y="66" width="180" height="230" rx="36" fill="#FFFFFF" fill-opacity="0.03" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="2"/>
+    <path d="M48 96 V250" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="5" stroke-linecap="round"/>
+    <path d="M48 262 V272" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="5" stroke-linecap="round"/>
+    <rect x="66" y="50" width="108" height="20" rx="6" fill="#FFFFFF" fill-opacity="0.03" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="2"/>
+
+    <!-- Etiqueta -->
+    <rect x="56" y="188" width="128" height="58" rx="8" fill="#00081C" fill-opacity="0.88" stroke="#8DC63F" stroke-opacity="0.75"/>
+    <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" text-anchor="middle">
+      <text x="120" y="213" font-size="15" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">PICKLE INC.</text>
+      <text x="120" y="232" font-size="9" letter-spacing="1" fill="#8DC63F">COMO EL PRIMER DÍA</text>
+    </g>
+
+    <!-- Tapa -->
+    <rect x="58" y="26" width="124" height="30" rx="8" fill="#8DC63F"/>
+    <rect x="58" y="40" width="124" height="6" fill="#00081C" fill-opacity="0.25"/>
+    <rect x="70" y="30" width="40" height="4" rx="2" fill="#FFFFFF" fill-opacity="0.5"/>
+
+    <!-- Destellos -->
+    <g fill="#BEF264">
+      <path d="M214 60 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 z"/>
+      <path d="M18 150 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3 z"/>
+      <path d="M222 250 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3 z"/>
+    </g>
+  </g>
+</svg>
